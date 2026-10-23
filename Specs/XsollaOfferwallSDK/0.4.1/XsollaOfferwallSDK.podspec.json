@@ -1,0 +1,30 @@
+{
+  "name": "XsollaOfferwallSDK",
+  "version": "0.4.1",
+  "summary": "Xsolla Offerwall SDK for iOS.",
+  "description": "The Xsolla Offerwall SDK enables offerwall monetisation in iOS applications.",
+  "homepage": "https://xsolla.com/offerwall",
+  "license": {
+    "type": "Apache-2.0",
+    "text": "Copyright Xsolla Inc. Licensed under the Apache License, Version 2.0. See https://www.apache.org/licenses/LICENSE-2.0 for the full license text."
+  },
+  "authors": {
+    "Xsolla": "offerwall_publishers@xsolla.com"
+  },
+  "cocoapods_version": ">= 1.12.0",
+  "swift_versions": [
+    "5.0"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "http": "https://cdn.xsolla.net/offerwallsdk-bucket-prod/release/0.4.1/XsollaOfferwallSDK.xcframework.zip",
+    "sha256": "5f7eb841b7dac55d929c7b2b9bec769b804ae8c666501da20f2d6f0d675e8391"
+  },
+  "vendored_frameworks": "XsollaOfferwallSDK.xcframework",
+  "user_target_xcconfig": {
+    "ENABLE_USER_SCRIPT_SANDBOXING": "NO"
+  }
+}
